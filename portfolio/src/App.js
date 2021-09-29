@@ -2,7 +2,7 @@
 import { React, useState } from 'react';
 import './App.css';
 import NavBar from './components/Navbar';
-import AboutMe from './components/AboutMe';
+import AboutMe from './page/AboutMe';
 
 
 function App() {
