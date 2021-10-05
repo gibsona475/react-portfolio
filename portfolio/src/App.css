@@ -41,3 +41,143 @@
   color: red; 
   font-size: 20px; 
 }
+
+.project:hover {
+  transform: scale(1.02);
+}
+.project svg {
+  height: 5vw;
+  width: 5vw;
+}
+.grid .project {
+  min-height: 10vw;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 40px 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  }
+  
+  .header  {
+      display: inline-block;
+      padding: 20px;
+      width: 100%;
+      background-color: black;
+      color: whitesmoke;
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      z-index: 5;
+  }
+  .header .container {
+      display: flex;
+  }
+  .myname {
+      font-weight: bold;
+  }
+  ul {
+      display: flex;
+      margin: 0;
+      text-align: center;
+  }
+  li {
+      list-style-type:none;
+      padding-left: 5px;
+      padding-right: 20px;
+  
+  }
+  ul a {
+      color: whitesmoke;
+      text-decoration: none;
+      padding: 5px 10px;
+  }
+  ul a:hover {
+      background-color: whitesmoke;
+      color: black;
+      padding: 5px 10px;
+      border-radius: 8px;
+  }
+  section, .contact {
+      padding: 6%;
+  }
+  .container h1, footer h2 {
+      font-size: 3em;
+  }
+  .portfolio {
+      background-color: #eee;
+  }
+  .portfolio .container {
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .grid {
+      display: grid;
+      grid-template-columns: auto auto;
+     
+  }
+  .grid a {
+      text-decoration: none;
+      color: black;
+  }
+  .project:hover {
+      transform: scale(1.02);
+  }
+  .project svg {
+      height: 5vw;
+      width: 5vw;
+  }
+  .grid .project {
+      min-height: 10vw;
+      border: 1px solid white;
+      margin: 10px;
+      padding: 40px 10px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+  
+  }
+  .about {
+      margin-top: 58px;
+  }
+  .about h2 {
+      font-size: 3.5em;
+  }
+  .about h4 {
+      font-size: 1.2em;
+      font-weight: 500;
+  }
+  .about img {
+      width: 20vw;
+      height: 20vw;
+  }
+  footer h3, h4 {
+      font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+      .about {
+          margin-top: 100px;
+      }
+  
+      .myname {
+          display: none;
+      }
+  
+      header ul {
+          padding: 0;
+      }
+  
+      header li {
+          padding-right: 0;
+      }
+  }

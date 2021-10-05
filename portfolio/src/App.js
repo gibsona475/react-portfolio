@@ -1,7 +1,9 @@
 
 import { React, useState } from 'react';
 import './App.css';
+import MyWork from './components/MyWork';
 import NavBar from './components/Navbar';
+import Contact  from './page/Contact';
 import AboutMe from './page/AboutMe';
 
 
@@ -21,6 +23,10 @@ function App() {
     switch (currentPage) {
       case 'AboutMe':
         return <AboutMe />; 
+        case 'Portfolio':
+        return <MyWork />; 
+        case 'Contact':
+        return <Contact />; 
 //All tabs 
       default:
         return <AboutMe />
